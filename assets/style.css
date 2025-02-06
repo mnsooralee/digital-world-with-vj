@@ -1,0 +1,161 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+
+}
+body {
+    background-color:  #F0F8FF;
+    align-items: center;
+}
+#navbar {
+    background-color: white;
+    color: black;
+    height: 70px;
+    display: flex;
+}
+#navlogo {
+    width: 40%;
+    text-align: center;
+}
+#navbuttons {
+    width: 60%;
+}
+a {
+    margin-left: 50px;
+    text-decoration: none;
+    color:black;
+}
+#navbuttons a i {
+    margin-left: 120px;
+}
+
+#navbuttons button {
+    margin-left: 120px;
+}
+
+a:hover {
+    color:  #0894dc;
+    border-radius: 5px;
+}
+
+#logo {
+    margin-left: 50px;
+    font-size: 35px;
+}
+button {
+    margin-top: 10px;
+    height: 40px;
+    border-radius: 15px;
+    background-color: #0894dc;
+    color: white;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
+button b {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#h3why {
+    color: #0894dc;
+    text-decoration: underline;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    right:0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    background-color: greewhitenyellow;
+    box-shadow: -5px 0 10px grey;
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    backdrop-filter: blur(10px);
+}
+
+.sidebar li {
+    width: 100%;
+}
+nav ul li a {
+    width: 100%;
+    margin-top: 50px;
+}
+.sidebar button {
+    margin-left: 30px;
+}
+#sidebtn {
+    cursor: pointer;
+    margin-right: 0;
+    display: none;
+}
+#cross {
+    cursor: pointer;
+    margin-left: 0;
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    margin-left: 10%;
+    justify-content: space-between;
+}
+.conitem {
+    flex-basis: 24%;
+    border-radius: 15px;
+    background-color: white;
+    text-align: center;
+    cursor: pointer;
+}
+.conitem p, h3 {
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 13px 10px 13px 10px;
+}
+.conitem:hover {
+    background-color: #0894dc;
+    color: white;
+    i {
+        color:white;
+    }
+}
+#logo:hover{
+    background-color: #0894dc;
+    i {
+        color: white;
+    }
+}
+i {
+    margin: 15px;
+    font-size: 2.25rem;
+    color: #0894dc;
+}
+
+.newcon {
+    text-align: center;
+}
+@media only screen and (max-width: 800px) {
+    .container {
+        flex-direction: column;
+    }
+    #navbuttons {
+        display: none;
+    }
+    #sidebtn {
+        display: block;
+    }
+}
+
+
+#navbar #navbuttons {
+    float:right;
+}
+
