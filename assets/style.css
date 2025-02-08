@@ -152,6 +152,9 @@ i {
     #sidebtn {
         display: block;
     }
+    .container {
+        gap: 1rem;
+    }
 }
 
 
