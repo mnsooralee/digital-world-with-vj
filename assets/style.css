@@ -8,7 +8,7 @@
 
 }
 body {
-/*     background-color:  #F0F8FF; */
+    /* background-color:  #F0F8FF; */
     background-color:  #DCE8F2;
     align-items: center;
 }
@@ -142,6 +142,16 @@ i {
 
 .newcon {
     text-align: center;
+}
+.credits {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    align-items: center;
+    justify-content: center;
+}
+.credits a {
+    text-decoration: none;
 }
 @media only screen and (max-width: 800px) {
     .container {
